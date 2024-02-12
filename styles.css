@@ -21,6 +21,8 @@
 }
 .photo-main{
 	background-color:green;
+	hight:500px;
+	width:350px
 }
 .photo-album{
 	display:flex;
@@ -29,5 +31,9 @@
 	justify-content:space-between;
 }
 .product__info{
-	
+	flex-wrap:wrap;
+}
+.price{
+	color:red;
+	font-size:40px;
 }
